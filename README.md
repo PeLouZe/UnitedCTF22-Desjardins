@@ -33,7 +33,7 @@ A ce moment, j'ai ouvert Process Monitor en pensant en voir plus. On voit dans c
 Je me suis dit, tôt ou tard, ce fichier malveillant devra parler a un serveur de Commande et Contrôle (C&C), donc lançons Wireshark...
 Rien n'est trouvé sur wireshark au premier abord, j'ai beau virer les communications dans tous les sens. Rien n'y est.
 
-Dans un moment de désespoir, je suis allé voir le reste du challenge (entre autre la partie 2). Dans cette section, il mentionné qu'avant de sortir sur Internet, le logiciel malveillant tente de "tester sa connexion". C'est alors que j'ai eu une illumination, en me disant qu'il pouvait tester aussi certaines connexions sur le poste lui-même ou, par exemple, vérifier le réseau du poste dans une phase d'identification.
+Dans un moment de désespoir, je suis allé voir le reste du challenge (entre autre la partie 2). Dans cette section, il est mentionné qu'avant de sortir sur Internet, le logiciel malveillant tente de "tester sa connexion". C'est alors que j'ai eu une illumination, en me disant qu'il pouvait tester aussi certaines connexions sur le poste lui-même ou, par exemple, vérifier le réseau du poste dans une phase d'identification.
 
 C'est donc a ce moment que je décide d'ouvrir la "loopback Interface" de Wireshark. 
 Celle-ci permet de voir des connexions sur 127.0.0.1 et nous sommes en mesure de trouver la réponse avec ces paquets.
@@ -70,7 +70,7 @@ Nous obtenons donc notre 3ième ⛳.
 
 ![Chall4](https://user-images.githubusercontent.com/16509773/194683927-528a39da-a56e-445d-a273-b09b04ee3343.jpg)
 
-Les gens de sécurité défensive le savent, lorsqu'on découvre le domaine ou l'IP d'un serveur de commande et contrôle on connaît déja beaucoup d'information sur notre adversaire, on est désormais capable de le bloquer. 
+Les gens de sécurité défensive le savent, lorsqu'on découvre le domaine ou l'IP d'un serveur de commande et contrôle on connaît déja beaucoup d'informations sur notre adversaire, on est désormais capable de le bloquer. 
 
 Après le test de connexion précèdent, notre malware commence a être bavard... on a donc une autre connexion qui apparaît dans Burp.
 
@@ -82,7 +82,7 @@ L'étape 5 de cette track était ma foi, surprenante, hilarante et surtout inté
 
 ![Chall5](https://user-images.githubusercontent.com/16509773/194684394-15feddee-d0e8-4950-bb84-f27360a9701c.jpg)
 
-De ce que j'en comprends nous devrons donc prendre contrôle du logiciel malveillant en se faisant passer par le serveur de C&C.
+De ce que j'en comprends nous devrons donc prendre contrôle du logiciel malveillant en se faisant passer pour le serveur de C&C.
 Je n'avais jamais pensé faire ça auparavant, mais c'est le genre d'un truc qu'on peut faire avec des proxy dans un Honeypot pour comprendre le fonctionnement d'un logiciel malveillant. J'ai trouvé cette partie plutôt intéressante, car en bout de ligne a la fin de cette étape on a monté un lab complet pour l'analyse dynamique.
 
 Donc, j'ai commencé par lister ce qu'on avait et ce qui nous manquait : 
