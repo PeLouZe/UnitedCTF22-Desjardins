@@ -83,7 +83,7 @@ L'étape 5 de cette track était ma foi, surprenante, hilarante et surtout inté
 ![Chall5](https://user-images.githubusercontent.com/16509773/194684394-15feddee-d0e8-4950-bb84-f27360a9701c.jpg)
 
 De ce que j'en comprends nous devrons donc prendre contrôle du logiciel malveillant en se faisant passer pour le serveur de C&C.
-Je n'avais jamais pensé faire ça auparavant, mais c'est le genre d'un truc qu'on peut faire avec des proxy dans un Honeypot pour comprendre le fonctionnement d'un logiciel malveillant. J'ai trouvé cette partie plutôt intéressante, car en bout de ligne a la fin de cette étape on a monté un lab complet pour l'analyse dynamique.
+Je n'avais jamais pensé faire ça auparavant, mais c'est le genre de truc qu'on peut faire avec des proxy dans un Honeypot pour comprendre le fonctionnement d'un logiciel malveillant. J'ai trouvé cette partie plutôt intéressante, car en bout de ligne a la fin de cette étape on a monté un lab complet pour l'analyse dynamique.
 
 Donc, j'ai commencé par lister ce qu'on avait et ce qui nous manquait : 
 1) On possède l'URL nécessaire au fonctionnement. L'adresse IP derrière celle-ci importe peu.
