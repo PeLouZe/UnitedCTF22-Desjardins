@@ -127,7 +127,7 @@ Ce que j'ai préféré :
 
 Merci a tous les organisateurs du UnitedCTF 2022 encore un succès cette année🚩👌 (c'était super, en plus l'évènement est gratuit!)
 
-Spécial thanks @Res260 pour le design de la track😍
+Spécial thanks au designer de la track😍
 
 Temps investi : + de 4h.
 
